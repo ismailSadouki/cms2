@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->string('avatar')->default('avatar.jpeg');
             $table->text('bio')->nullable();
-            $table->text('administration_level')->default(0);
+            $table->integer('administration_level')->default(0);
             $table->rememberToken();
             $table->timestamps();
         });
