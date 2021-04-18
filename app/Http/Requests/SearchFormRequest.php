@@ -24,14 +24,14 @@ class SearchFormRequest extends FormRequest
     public function rules()
     {
         return [
-            'body' => 'required'
+            'keyword' => 'required'
         ];
     }
 
     public function messages()
     {
         return [
-            'body.required' => 'حقل البحث مطلوب',
+            'keyword.required' => 'حقل البحث مطلوب',
         ];
     }
 }

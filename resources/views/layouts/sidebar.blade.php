@@ -2,7 +2,7 @@
     <div class="card-body text-center position-relative">
         <form action="{{route('search')}}" method="POST">
             @csrf
-            <input type="text" placeholder="ابحث عن ..." name="keyword" id="" class="form-control border-0 mr-5 @error('body') is-invalid @enderror">
+            <input type="text" placeholder="ابحث عن ..." name="keyword" id="" class="form-control border-0 mr-5 @error('keyword') is-invalid @enderror">
             <i class="fa fa-search position-absolute"></i>
           
         </form>     
@@ -64,7 +64,7 @@
             </div>
         @empty
             <div>
-                لا يوجد تعليقات لغرضها
+                لا يوجد تعليقات لعرضها
             </div>
         @endforelse
    
