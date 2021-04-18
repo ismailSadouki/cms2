@@ -1,0 +1,71 @@
+footer
+{
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer .top-footer .overlay
+{
+    background-color: rgba(255,204,0,0.7);
+    padding: 60px 0 ;
+}
+
+footer .top-footer .overlay h3
+{
+    font-size: 30px;
+    margin-bottom: 30px; 
+}
+
+
+footer .contact .overlay 
+{
+    background-color: rgba(28, 28, 28, 0.9);
+    padding: 60px 0  10px;
+    color: #fff;
+}
+
+footer .contact .overlay h3
+{
+    font-size: 30px;
+    margin: 0 auto 30px;
+}
+
+footer .contact .overlay ul li a
+{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.14);
+    color: #fff;
+    font-size: 1.2em;
+    
+}
+footer .contact .overlay ul li a:hover
+{
+     background-color:  #214462;
+     transition: all .8s ease;
+}
+footer .contact .overlay ul li
+{
+    margin: 0 5px;
+}
+
+footer .counter .overlay hr
+{
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    width: 25%;
+    margin-top: 50px;
+}
+
+footer .contact .overlay p a
+{
+    color: #b4b4b4;
+
+}
+footer .contact .overlay p a i 
+{
+    color:  #214462;
+    margin-left: 5px;
+}
